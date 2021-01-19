@@ -11,23 +11,10 @@
   --font-light: 400;
 }
 
-/* ===================*/
-/* Main Content area */
-/* ===================*/
-
-.mosaic-content{
-/*    flex: 1 1 100%;*/
-/*    min-height: 100vh;*/
-}
-
-/* ===================*/
-/* Portfolio */
-/* ===================*/
-
 .mosaic-portfolio {
   display: grid;
-  grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   height: 100%;
 }
 
@@ -36,18 +23,12 @@
   color: var(--primary-color);
   font-weight: var(--font-light);
   display: flex;
-  justify-content: center;
+  justify-content:center ;
   align-items: center;
-  font-size: 2em;
+  font-size: var(--font-big);
   padding: 30px;
-/*    width: 100px;*/
-/*  background-size: cover;*/
-/*  background-position: top left;*/
-/*  transition: all ease-in-out 300ms;*/
-/*  position: relative;*/
-/*  z-index: 10;*/
-    transition: 0.5s background-color;
-    transition: 0.5s color;
+  transition: 0.5s background-color;
+  transition: 0.5s color;
 }
 
 .mosaic-item:hover {
@@ -55,31 +36,43 @@
   color: var(--dark-color);
     
 }
-  .small {
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-  
-  .medium {
-   grid-row: span 2;
-    grid-column: span 2;
-  }
-  
-  .large {
-    grid-row: span 3;
-    grid-column: span 3;
-  }
-  
-  .tall {
-    grid-row: span 3;
-    grid-column: span 2;
-  }
-  
-  .wide {
-    grid-row: span 2;
-    grid-column: span 3;
-  }
 
+.mosaic-item h2 {
+  color: var(--primary-color);
+  font-weight: var(--font-light);
+  font-size: var(--font-small);
+}
+
+.mosaic-item a {
+  color: var(--primary-color);
+  font-weight: var(--font-light);
+  font-size: var(--font-small);
+}
+
+.small {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.medium {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.large {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+}
 
 @media all and (max-width: 500px) {
   .mosaic-portfolio {
