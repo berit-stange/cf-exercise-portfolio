@@ -7,7 +7,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -135,8 +135,8 @@ button:focus,
 
 .profile__text {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 100px;
-  flex: 1 1 100px;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
 }
 
 .profile__text p {
@@ -159,14 +159,14 @@ button:focus,
 
 .page-header__item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 200px;
-  flex: 0 1 200px;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   text-align: right;
 }
 
@@ -186,8 +186,8 @@ button:focus,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   background-color: gainsboro;
   color: #002238;
@@ -239,7 +239,11 @@ button:focus,
     cursor: pointer;
   }
 
-  .grid__item h2:hover {
+  .grid__item:hover h2 {
+    color: gainsboro;
+  }
+
+  .grid__item:hover a {
     color: gainsboro;
   }
 }
@@ -300,32 +304,32 @@ button:focus,
   margin: 0 auto;
   background-color: #e66771;
   -webkit-animation-name: stretch;
-  animation-name: stretch;
+          animation-name: stretch;
   -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+          animation-delay: 0s;
   -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+          animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-fill-mode: none;
-  animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes stretch {
   0% {
     -webkit-transform: scale(0.3);
-    transform: scale(0.3);
+            transform: scale(0.3);
     background-color: #e66771;
     border-radius: 100%;
   }
 
   100% {
     -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+            transform: scale(1.5);
     background-color: gainsboro;
   }
 }
@@ -333,14 +337,14 @@ button:focus,
 @keyframes stretch {
   0% {
     -webkit-transform: scale(0.3);
-    transform: scale(0.3);
+            transform: scale(0.3);
     background-color: #e66771;
     border-radius: 100%;
   }
 
   100% {
     -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+            transform: scale(1.5);
     background-color: gainsboro;
   }
 }
