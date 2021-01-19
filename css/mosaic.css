@@ -23,7 +23,7 @@
   color: var(--primary-color);
   font-weight: var(--font-light);
   display: flex;
-  justify-content:center ;
+  justify-content:center;
   align-items: center;
   font-size: var(--font-big);
   padding: 30px;
@@ -34,19 +34,31 @@
 .mosaic-item:hover {
   background-color: var(--primary-color);
   color: var(--dark-color);
-    
 }
 
 .mosaic-item h2 {
-  color: var(--primary-color);
-  font-weight: var(--font-light);
-  font-size: var(--font-small);
+/*  color: var(--primary-color);*/
+/*  font-weight: var(--font-light);*/
+/*  font-size: var(--font-medium);*/
 }
 
 .mosaic-item a {
-  color: var(--primary-color);
-  font-weight: var(--font-light);
+/*  color: var(--primary-color);*/
+/*  font-weight: var(--font-light);*/
   font-size: var(--font-small);
+}
+
+.mosaic-item:hover a,
+.mosaic-item:hover h2 {
+  color: var(--dark-color);
+}
+
+.mosaic-item div {
+/*  color: var(--primary-color);*/
+/*  font-weight: var(--font-light);*/
+  font-size: var(--font-small);
+  margin: 0px;
+    padding: 0px;
 }
 
 .small {
