@@ -279,9 +279,9 @@
 }
 
 .mosaic-item {
-  background-color: undefined;
-  color: undefined;
-  font-weight: undefined;
+  background-color: gainsboro;
+  color: #e66771;
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,8 +308,8 @@
 }
 
 .mosaic-item:hover {
-  background-color: undefined;
-  color: undefined;
+  background-color: #e66771;
+  color: #002238;
     
 }
   .small {
@@ -470,6 +470,6 @@
 /*    grid-row: auto / auto;*/
   }
   h1 {
-    font-size: undefined;
+    font-size: 30px;
   }
 }

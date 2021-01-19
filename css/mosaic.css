@@ -1,3 +1,16 @@
+:root {
+  --primary-color: #e66771;
+  --secondary-color: gainsboro;
+  --dark-color: #002238;
+  --font-sans: 'Karla', sans-serif;
+  --font-serif: 'Lora', serif;
+  --font-big: 60px;
+  --font-medium: 30px;
+  --font-small: 15px;
+  --font-heavy: 700;
+  --font-light: 400;
+}
+
 /* ===================*/
 /* Main Content area */
 /* ===================*/
