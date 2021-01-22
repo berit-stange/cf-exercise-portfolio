@@ -205,6 +205,10 @@ button:focus,
   width: 33%;
 }
 
+.grid__item a{
+    text-decoration: none;
+}
+
 /* --------------- end grid fallback */
 
 /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
