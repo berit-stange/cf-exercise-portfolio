@@ -54,7 +54,7 @@ div {
 
 a {
   color: var(--primary-color);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a:visited {
@@ -230,6 +230,17 @@ button:focus,
 
 .main-content__table {
   margin: 0 auto;
+}
+
+/* .img-container {
+  width: 100%;
+} */
+
+.work-img {
+  /* float: left; */
+  width: 100%;
+  /* margin-right: 40px; */
+  /* border-radius: 50%; */
 }
 
 /* -----------------------------------------------------2020-12-15 media queries ---- */

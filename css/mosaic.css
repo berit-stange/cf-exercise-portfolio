@@ -36,11 +36,11 @@
   color: var(--dark-color);
 }
 
-.mosaic-item h2 {
+/* .mosaic-item h2 { */
 /*  color: var(--primary-color);*/
 /*  font-weight: var(--font-light);*/
 /*  font-size: var(--font-medium);*/
-}
+/* } */
 
 .mosaic-item a {
 /*  color: var(--primary-color);*/
@@ -135,10 +135,11 @@
   .mosaic-portfolio {
     grid-gap: 10px;
   }
-  .mosaic-item:last-child {
+  /* .mosaic-item:last-child { */
 /*    grid-column: auto / auto;*/
 /*    grid-row: auto / auto;*/
-  }
+  /* } */
+  
   h1 {
     font-size: var(--font-medium);
   }
