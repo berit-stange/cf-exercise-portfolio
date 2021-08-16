@@ -17,5 +17,5 @@ Personal portfolio built wit HTML5 an CSS3
 - [Autoprefixer ](https://autoprefixer.github.io/)
 
 ## Hosting
-- this version is no longer hosted. The new version of the porfolio can be found here: 
-- [Berit Stange Portfolio ](https://berit-stange.github.io/)
+This version is no longer hosted. The new version of the porfolio can be found here: 
+[Berit Stange Portfolio ](https://berit-stange.github.io/) 
