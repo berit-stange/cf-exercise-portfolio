@@ -18,4 +18,4 @@ Personal portfolio built wit HTML5 an CSS3
 
 ## Hosting
 This version is no longer hosted. The new version of the porfolio can be found here: 
-[Berit Stange Portfolio ](https://berit-stange.github.io/) 
+[ berit-stange.github.io ](https://berit-stange.github.io/) 
